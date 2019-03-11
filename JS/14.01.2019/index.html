@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Title</title>
+	<script type="text/javascript">
+		var car2 =
+		{
+			color: "Blue",
+			brand: "Toyota",
+			number: 321
+
+		};
+		function test()
+		{
+			var car =
+			{
+				color: document.getElementById("color").value,
+				brand: document.getElementById("brand").value,
+				number: document.getElementById("number").value
+			};
+
+			alert(car.color + ":"+car.brand +":"+ car.number);
+		}
+		function test2()
+		{
+			test();
+			alert(car2.color);
+		}
+	</script>
+</head>
+<body>
+	<input type="text" id="color" placeholder="Input Color">
+	<input type="text" id="number" placeholder="Input Number">
+	<input type="text" id="brand" placeholder="Input Brand">
+
+<button onclick="test2()">Add</button>
+<div id="res">Result</div>
+</body>
+</html>

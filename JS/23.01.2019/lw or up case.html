@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		function clicked(info)
+		{
+			//var str = info.toLowerCase();
+			//alert(str);  
+
+			//var str2 = info.toUpperCase();
+			//alert(str2) ;
+
+			//var str3 =info.replace(/Hello/i,"Zed");// g for global and i for insensitive 
+			//alert (str3);
+/*
+			var first = info.charAt(0);
+			alert(first);
+			var ch = info.charAt(info.length-1);
+			alert(ch);
+			var middle = info.charAt(info.length/2);
+			alert = (middle); */
+			
+			var i;
+			var txt="";
+			for (i=0;i<=info.length ;i-=2)
+			{
+				txt = txt+info.charAt(info.length-i);
+			}
+			alert(txt);
+
+		}
+	</script>
+</head>
+<body>
+ <button onclick="clicked('hello hello hello hello world hello Hello')">Click</button>
+</body>
+</html>

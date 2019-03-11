@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> </title>
+	<script type="text/javascript">
+		var arr = [ "Linna","Daneth","Yuklin","Mouyleng","dane","arun","axis"];
+		var str = "";
+		var num = [123,2,4,223,100];
+		function clicked()
+		{
+			//concatinating the elements of array manually with the help of logic
+		/*	for (i =0 ;i<arr.length;i++)
+			{
+				str = str + arr[i];
+			}
+		*/
+
+
+		/*
+			// toString() concatenates the elements of an array and return a new string
+			//str  =arr.toString();
+			// join() also concatenates the elements of an array and return a new string but we may use custom seperator instead of commas.
+			//str = arr.join(".");
+			//alert (str);
+		*/
+			//shift() removes the first element of an array
+			/*var ele =arr.shift();
+			alert(arr);
+			alert(ele);
+			var ele =arr.shift();
+			alert(arr);
+			alert(ele);
+			var ele =arr.shift();
+			alert(arr);
+			alert(ele);
+			var ele =arr.shift();
+			alert(arr);
+			alert(ele);*/
+
+		/*	for (;arr.length!=0;)
+			{
+				arr.shift();
+				alert(arr);
+				
+			}
+			// unshift () add a new element to an array info first index
+			arr.unshift("300");
+			alert(arr);
+		*/
+		/*
+			//sort() sorts the string elements of an array in ascending order
+				alert(arr.sort());
+			// sort(function{}) sorts the numeric elements of an array in acending or descending order
+				num.sort(function(num1,num2){return num2-num1;} );
+				alert(num);
+		*/
+			//delete an element from the array 
+			var del = delete arr[4];
+			alert (arr);
+
+		}
+	</script>
+</head>
+<body onload="clicked()">
+<!-- <button onclick ="clicked()">Click</button> -->
+</body>
+</html>

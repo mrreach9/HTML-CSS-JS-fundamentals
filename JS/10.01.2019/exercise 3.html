@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		function unit()
+		{
+			var u , unit;
+			u= parseFloat(window.prompt("Input the amount of Unit"));
+			if (u >= 1000){
+				document.write("The amount to be paid =" +(unit = u*2.5)+"$" );
+			}
+			else if (u >=800){
+				document.write("The amount to be paid =" +(unit = u *1.5)+"$");
+			}
+			else if (u >=600){
+				document.write("The amount to be paid =" +(unit = u *1)+"$");
+			}
+			else if (u <600 && u >=0){
+				document.write("The amount to be paid =" +(unit = u *0.75)+"$");
+			}	
+			else 
+				document.write("The amount of input is incorrect!")
+		}
+	</script>
+</head>
+<body>
+<button onclick="unit()">Unit</button>
+</body>
+</html>

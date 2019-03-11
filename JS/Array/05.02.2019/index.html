@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test</title>
+	<script type="text/javascript">
+		var str = "5Hello7 jafjdkasjkfaa sdasdsad kasjdksak8882366234 12-02-2019"
+		var str2 = "Batch basd basd = bath"
+		function clicked()
+		{
+			// \d ---> selects a number
+			// \w ---> select a character or number or _
+			// \s ---> selects a single white space
+			//	var temp = str.replace(/[\d]/g,"**");
+			/*	var temp = str.replace(/\d{2}-\d{2}-\d{4}/g,"12-Feb-2019")
+				alert (temp);
+			*/
+
+			// ? ---> makes the previous character optional
+			// . --->  at least one character should be there
+			// .+ ---> change all to only the pattern specified
+			// do research on + and *
+			// $ ---> select from the last {n}
+			// ^ ---> select base on {n}
+			//	var temp = str2.replace(/Batch[1-5]?/g,"12-Feb-2019");
+			//	var temp = str2.replace(/[a-z]*/g,"***");
+			//	var temp = str2.replace(/^[a-z]+$/gi,"*****");
+				var temp = str2.replace(/bo*/gi,"+")
+				alert (temp);
+
+		}
+	</script>
+</head>
+<body onload="clicked()">
+
+</body>
+</html>

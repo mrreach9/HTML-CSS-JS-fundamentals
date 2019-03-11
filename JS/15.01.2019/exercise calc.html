@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<script type="text/javascript">
+	 //var a=parseInt(window.prompt("Input A")) 
+	 //var b=parseInt(window.prompt("Input B"))
+		var num = 
+		{
+			add: function(a,b)
+			{
+				
+			return a+b;
+			},
+			sub: function(a,b)
+			{
+			return a-b;
+			},
+			mul: function(a,b)
+			{
+			return a*b;
+			},
+			div: function(a,b)
+			{
+			return a/b;
+			}
+		};
+		function add(){
+		var add = num.add(parseInt(document.getElementById("fn").value),parseInt(document.getElementById("sn").value));
+		alert ("The total is "+add);}
+		function sub(){
+		var sub = num.sub(parseInt(document.getElementById("fn").value),parseInt(document.getElementById("sn").value));
+		alert ("The total is "+sub);}
+		function mul(){
+		var mul = num.mul(parseInt(document.getElementById("fn").value),parseInt(document.getElementById("sn").value));
+		alert ("The total is "+mul);}
+		function div(){
+		var div = num.div(parseInt(document.getElementById("fn").value),parseInt(document.getElementById("sn").value));
+		alert ("The total is  "+div);}
+	</script>
+</head>
+<body>
+<input type="text" id="fn" placeholder="Input First Number">
+ <input type="text" id="sn"placeholder="Input Second Number">
+ <div>Choose an operator:<div><br>
+<button onclick="add()">Add</button>
+<button onclick="sub()">Sub</button>
+<button onclick="mul()">Mul</button>
+<button onclick="div()">Div</button> <br>
+<button onclick="location.reload();">Refresh Value</button>
+
+</body>
+</html>

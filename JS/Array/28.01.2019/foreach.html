@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		//var arr = [10,20,30];
+
+		var mArr = [
+					[10,20,30],
+					[40,50],
+					[70,80,90,100]
+					];
+
+		var arrObj = [
+		{id:123,name:"eko"},
+		{id:124,name:"yuklin"}
+		];
+		var arr = [];
+
+		function clicked()
+		{
+		/*
+			//using for each
+			arr.forEach(test);
+		*/	
+		
+			//arr[4] = 300; // improper assignment to array
+			
+		/*	
+			arr.push(300); //assign element at the end of array
+			alert(arr);
+			var ele = arr.pop(); //remove the element at the end 
+			alert(arr);
+			alert ("the element pop out is "+ele);	
+		*/
+
+		/*
+		for (i=0 ;i <mArr.length;i++)
+		{
+			for (j=0;j<mArr[i].length;j++)
+				alert (mArr[i][j]);
+		}
+		*/
+
+		
+		for (i=0; i<arrObj.length;i++)
+			alert(arrObj[i].id + arrObj[i].name);
+		
+
+		//name index
+		/*arr["one"] = "Junsei";
+		arr["two"] = "Eishin";
+		arr["tree"] = "Yusuke";
+
+		alert(arr);*/
+		}
+		
+		function test(num)
+		{
+			alert(num);
+		}
+	</script>
+</head>
+<body>
+	<div id="test">Test</div>
+<button onclick="clicked()">Click</button>
+</body>
+</html>

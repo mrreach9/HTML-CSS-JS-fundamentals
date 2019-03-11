@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		function rank()
+		{
+			var rank;
+			rank = parseFloat(window.prompt("Input your score"));
+			if (rank >= 90 & rank <=100 )
+				document.write("Distinction");
+			else if (rank >= 80 & rank<=89 )
+				document.write("First Class");
+			else if (rank >=60 & rank <=79)
+				document.write("Second Class");
+			else if (rank >=50 & rank <=59)
+				document.write("Pass");
+			else if (rank >= 0 & rank <=49)			
+				document.write("Fail");	
+			else
+				document.write("Wrong Score Input!");	
+		}
+	</script>
+</head>
+<body>
+<button onclick="rank()">Rank Check</button>
+</body>
+</html>

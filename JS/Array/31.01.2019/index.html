@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		//1.Splice -- used to add an elements from a specified index amd insert the new elements using a single function call
+		//2.map() -- used to iterate the elements of the array [work like forEach]
+		//3.filter() --used to create a new array with the qualified elements based on a condition
+		var arr = [18,20,10,19,16,40]; 
+		function clicked()
+		{
+		/*	arr.splice(0,1,399,333,2323,222);
+			alert(arr);
+		*/
+
+		/*
+		var newarr =arr.map(test);
+		alert(newarr);
+		*/
+
+		/*
+		var newarr =arr.filter(test);
+		alert(newarr);
+		alert(arr);
+		*/
+		var sum= arr.reduce(test);
+		alert(sum);
+
+		}
+		function test(total,value)
+		{
+			return total+value;
+		}
+
+	</script>
+</head>
+<body onload="clicked()">
+
+</body>
+</html>

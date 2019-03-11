@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		function clicked(info)
+		{
+			info =info.trim();
+			
+			//var newstr = info.slice(0,5);
+			//var newstr =info.substring(0,5);//negative value is not accepted
+			//var newstr = info.substr(0,2); // the second value detemines the amount of character
+			//alert(newstr);
+			
+
+			 //str.trim() function is used to remove the white spaces from both the ends of the given string.
+			if (info == "Leang Heng"){
+				alert("Welcome : "+info+"Your name has :"+info.length+" characters");
+			}
+			else 
+				alert("Get lost from here...");
+
+			
+
+		//	var pos = info.search("o ");
+		//	alert (pos);
+		//	var pos1 = info.indexOf("l");
+		//	alert("Found at:"+pos1);
+			                                                                                                     
+		}
+	</script>
+</head>
+<body>
+ <button onclick="clicked('Leang Heng')">Click</button>
+</body>
+</html>

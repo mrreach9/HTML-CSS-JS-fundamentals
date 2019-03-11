@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Temp</title>
+<script type="text/javascript">
+	var str = "Welcome to catch5 , aatch5 latch4 is a good clas ... I'm from Batch1 BATCH2 Batch5 54 223 3212   99999   88888   8888888888 are abcAbC123";
+	function clicked()
+	{
+	//	var temp = str.replace (/Batch5/gi,"Batch6");
+	//	var temp = str.replace (/[^b]atch[^2]/gi,"*********");
+		//[^5] specific number/letter isnt involved
+		// /g global selection
+		// /i incasensitive selection
+		var temp = str.replace (/[0-9]{5,6}/gi,"####")
+		alert (temp);
+	}
+</script>
+</head>
+<body onload="clicked()">
+
+</body>
+</html>

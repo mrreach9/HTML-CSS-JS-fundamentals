@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Arithmetic</title>
+	<script type="text/javascript">
+		
+		var number = 
+		{
+			add :function(num1,num2)
+			{
+					var num3 =num1+num2;
+					return"The Total is: "+num3;
+			},
+			sub :function(num1,num2)
+			{
+					var num3 =num1-num2;
+					return"The Total is: "+num3;
+			},
+			mul :function(num1,num2)
+			{
+					var num3 =num1*num2;
+					return"The Total is: "+num3;
+			},
+			div :function(num1,num2)
+			{
+					var num3 =num1/num2;
+					return"The Total is: "+num3;
+			},
+		};
+		run();
+		function run(){
+		var number1 = parseInt(window.prompt("Enter the first value"));
+    	var operator = window.prompt("Enter The sign of operator");
+    	var number2 = parseInt(window.prompt("Enter the second value"));
+    if (operator=='+')
+     {
+     	alert(number.add(number1,number2));
+     } 
+    else if(operator=='-') 
+    {
+    	alert(number.sub(number1,number2));
+    }
+    else if(operator=="*")
+    {
+    	alert(number.mul(number1,number2));
+    }
+    else if (operator=="/")
+    {
+    	alert(number.div(number1,number2));
+    }
+    else
+    {
+    	alert("Invalid operator.");
+    }
+   		
+}
+</script>
+</head>
+</html>
+

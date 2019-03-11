@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		function setName()
+		{
+			var num1 = document.getElementById("fn").value;
+			var num2 = document.getElementById("ln").value;
+			num1 = parseInt(num1);
+			num2 = parseInt(num2);
+			document.getElementById("res").innerHTML = num1+num2;
+		}
+	</script>
+</head>
+<body>
+	<input type="text" id="fn" placeholder="Enter First name:"><br>
+	<input type="text" id="ln" placeholder="Enter Last name:"><br>
+<button onclick="setName()">Set name in DIV</button>
+<div id="res"> Result</div>
+</body>
+</html>

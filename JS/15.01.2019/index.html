@@ -1,0 +1,42 @@
+       cc   <!DOCTYPE html>
+<html>
+<head>
+	<title>Title</title>
+	<script type="text/javascript">
+		var car =
+		{
+			color:"Red",
+			number:1000,
+			brand:"Audi",
+
+			//drive: function(batchname,speed)
+			drive: function(batchname,speed)
+			{
+				if(speed <=120)
+				{
+					return "wow ooooooo."+batchname+"is so cool driving at"+speed+"kmph";
+				}
+				else
+					return "woooooooooooooooow"+batchname+"is about to die.....";
+			},
+			stop: function()
+			{
+				alert("Crak......Crak.....");
+			}
+		};
+		car.drive("Batch6",1011);
+		var msg = car.drive("b6",130);
+		alert (msg);
+		
+		car.stop();
+	</script>
+</head>
+<body>
+	<input type="text" id="color" placeholder="Input Color">
+	<input type="text" id="number" placeholder="Input Number">
+	<input type="text" id="brand" placeholder="Input Brand">
+
+<button onclick="">Add</button>
+<div id="res">Result</div>
+</body>
+</html>
