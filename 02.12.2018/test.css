@@ -1,0 +1,61 @@
+/*p
+{
+	background:rgba(80, 34, 195, 0.31);
+	border-style: dotted;
+	border-width: 10px;
+	border-color: red;
+	background-color: blue;
+	background-clip: padding-box;
+	/*border-right-style: solid;
+	border-left-style: groove;
+	border-top-style: dotted; ;
+	border-bottom-style: dashed;
+	border-style: solid dotted dashed groove;
+	border-width: 10px 5px 8px 15px;
+}*/
+
+.divstyle
+{
+	/*padding-left: 50px;
+	padding-right:50px;
+	padding-bottom:100px;
+	padding-top: 100px; */
+	border:dashed 5px;
+	text-decoration: line-through; 
+	text-decoration-color: blue;
+	border-color: red;
+	background-color: yellow;
+	padding: 150px;
+	white-space: normal;
+	/*margin-top: 30px;
+	margin-left: 100px;
+	margin-bottom: : 100px;
+	margin-right: : 200px;*/
+	margin: auto;
+	
+
+
+
+	padding: 100px 20px ;
+
+	max-width: 800px;
+
+	text-align:justify;
+	}
+.la
+{
+	text-align: left;
+	background-color: green;
+
+}
+.ra
+{
+	text-align: right;
+	background-color: red;
+}
+.ca
+{
+	text-align: center;
+	background-color: rgb(89,48,1);
+
+}

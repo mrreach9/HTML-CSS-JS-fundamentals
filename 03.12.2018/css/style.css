@@ -1,0 +1,111 @@
+/*p.demo
+{
+	background-color: blue;
+	color: white;
+}*/
+/*body div div
+{
+	border: solid;
+	border-color: pink;
+	background-color: aqua;
+
+}*/
+/*h1.demo
+{ 
+	background-color: green;
+	color: #0ff; 
+}*/
+/* only apply to the element after the + sign*/
+/*div.bgstyle+p
+{
+	background-color: black;
+	color: white;*/
+
+/*apply style to all the emlement below it*/
+/*p ~ p
+{
+	background-color: green;
+	color:white;
+}*/
+/*p.demo2 ~ p
+{
+	background-color: yellow;
+	color: blue;
+}*/
+/*p[class^="d"] /*any class starts with letter*/
+/* p[class$=".."] any class ends with letter*/
+/* p[class*=".."] any class with letter*/
+/*p[class*="m"]  
+{
+	background-color: grey;
+	color: yellow;
+	font-size: 50px;
+}*/
+
+/*div +p
+{
+	background-color: aqua;
+	color: white;
+}*/
+/*div.bgstyle
+{
+	background-color: green;
+	color: white;
+}*/
+
+/*div p:nth-child(even)
+{
+	color: green;
+	background-color: blue;
+}*/
+.tblstyle
+{
+	border: 100px red;
+	text-align: center;
+
+	
+}
+table tr td 
+{
+	border:5px solid blue;
+	transition: 1.5s linear;
+}
+table tr td:nth-child(even)
+{ 
+	background-color: grey;
+}
+table tr td:nth-child(odd)
+{
+	background-color: white;
+}
+table tr td:hover
+{
+	transform: scale(1.5);
+}
+p
+{
+	
+	overflow: scroll;
+	float: right;
+	display: block;
+
+}
+   .warning{
+    	display:block;
+    	background:red;
+    	width:50%;
+    	min-width:300px;
+    	padding:20px;
+    	margin:10px auto;
+    	text-align:center;
+    	font-size:18px;	
+    	opacity: 20%;
+    	transform: translate(5px,10px);
+    }
+    i
+    {
+    	-ms-transform: rotate(-20deg); /* IE 9 */
+  -webkit-transform: rotate(-20deg); /* Safari */
+  transform: rotate(-20deg);
+  opacity(0.5);
+}

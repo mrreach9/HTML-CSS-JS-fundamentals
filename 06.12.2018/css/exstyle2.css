@@ -1,0 +1,276 @@
+/**
+{
+	margin: 0px;
+	padding: 0px;
+}
+.div1
+{
+	background-color: red;
+	position: absolute;
+	width: 700px;
+	height: 100px;
+}
+.div2
+{
+	background-color: blue;
+	position: absolute;
+	top: 100px;
+	width: 100px;
+	height: 700px;
+}
+.div3
+{
+	background-color: green;
+	position: absolute;
+	left: 100px;
+	top: 100px;
+	width: 600px;
+	height: 100px;
+}
+.div4
+{
+	background-color: brown;
+	position: absolute;
+	top: 200px;
+	left:100px;
+	width: 100px;
+	height: 600px;
+}
+.div5
+{
+	background-color: grey;
+	position: absolute;
+	top: 200px;
+	left: 200px;
+	width: 500px;
+	height: 100px;
+}
+.div6
+{
+	background-color: pink;
+	position: absolute;
+	top: 300px;
+	left: 200px;
+	width: 100px;
+	height: 500px;
+}
+.div7
+{
+	background-color: aqua;
+	position: absolute;
+	top: 300px;
+	left: 300px;
+	width: 400px;
+	height: 100px;
+}
+.div8
+{
+	background-color: black;
+	color: white;
+	position: absolute;
+	top: 400px;
+	left: 300px;
+	width: 100px;
+	height: 400px;
+}
+.div9
+{
+	background-color: purple;
+	position: absolute;
+	top: 400px;
+	left:400px;
+	height: 100px;
+	width: 300px;
+}
+.div10
+{
+	background-color: cyan;
+	position: absolute;
+	top: 500px;
+	left: 400px;
+	width: 100px;
+	height: 300px;
+}
+.div11
+{
+	background-color: orange;
+	position: absolute;
+	top: 500px;
+	left: 500px;
+	width: 200px;
+	height: 100px;
+}
+.div12
+{
+	background-color: red;
+	position: absolute;
+	top: 600px;
+	left: 500px;
+	width: 100px;
+	height: 200px;
+}
+.div13
+{
+	background-color: blue;
+	position: absolute;
+	top: 600px;
+	left: 600px;
+	width: 100px;
+	height: 100px;
+}
+.div14
+{
+	background-color: green;
+	position: absolute;
+	top: 700px;
+	left: 600px;
+	width: 100px;
+	height: 100px;
+}*/
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+.div1
+{
+	background-color: pink;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 12.5%;
+}
+
+.div2
+{
+	background-color: red;
+	position: absolute;
+	left: 0px;
+	top: 12.5%;
+	width: 12.5%;
+	height: 87.5%;
+}
+
+.div3
+{
+	background-color: green;
+	position: absolute;
+	top: 12.5%;
+	left: 12.5%;
+	width: 87.5%;
+	height: 12.5%;
+}
+
+.div4
+{
+	background-color: black;
+	position: absolute;
+	color: white;
+	top: 25%;
+	left: 12.5%;
+	width: 12.5%;
+	height: 75%;
+}
+
+.div5
+{
+	background-color: gray;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	width: 75%;
+	height: 12.5%;
+}
+
+.div6
+{
+	background-color: blue;
+	position: absolute;
+	top: 37.5%;
+	left: 25%;
+	width: 12.5%;
+	height: 62.5%;
+
+}
+
+.div7
+{
+	background-color: #7FFF00;
+	position: absolute;
+	top: 37.5%;
+	left: 37.5%;
+	width: 62.5%;
+	height: 12.5%;
+}
+
+.div8
+{
+	background-color: #00FFFF;
+	position: absolute;
+	top: 50%;
+	left: 37.5%;
+	width: 12.5%;
+	height: 50%;
+}
+
+.div9
+{
+	background-color: #E0B0FF;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 50%;
+	height: 12.5%;
+}
+
+.div10
+{
+	background-color: #FFBF00;
+	position: absolute;
+	top: 62.5%;
+	left: 50%;
+	width: 12.5%;
+	height: 37.5%;
+}
+
+.div11
+{
+	background-color: #4B0082;
+	position: absolute;
+	top:62.5%;
+	left: 62.5%;
+	width: 37.5%;
+	height: 12.5%;
+}
+
+.div12
+{
+	background-color: #E0B0FF;
+	position: absolute;
+	top: 75%;
+	left: 62.5%;
+	width: 12.5%;
+	height: 25%;
+}
+
+.div13
+{
+	background-color: #CC7722;
+	position: absolute;
+	top: 75%;
+	left: 75%;
+	width: 25%;
+	height: 12.5%;
+
+}
+.div14
+{
+	background-color: #FFF700;
+	position: absolute;
+	top: 87.5%;
+	left: 75%;
+	width: 12.5%;
+	height: 12.5%;
+}

@@ -1,0 +1,60 @@
+/*div
+{
+	width: 100%;
+	height: 500px;
+	background-color: red;
+	font-size: 30px;
+}
+@media screen and (max-width: 1000px)
+{
+	div
+	{
+		background-color: pink;
+	}
+}
+@media screen and (min-width: 800px)
+{
+	div
+	{
+		background-color: blue;
+		font-family: Arial;
+		font-size: 0.7em;
+	}
+}*/
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+ul 
+{
+	right: 0px;
+	position: absolute;
+	text-align: center;
+	margin: 0px;
+	width: 100%;
+	list-style-type: none;
+
+}
+a
+{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+ul li
+{
+	float: left;
+	width: calc(25% - 33px);
+	margin: 0px;
+	padding: 5px 15px;
+	display: inline-block;
+	background-color: pink;
+	border-right: solid 3px white;
+	border-radius: 25px;
+}
+ul li:hover 
+{
+	background-color: rgb(197, 239, 247);
+
+}

@@ -1,0 +1,42 @@
+.para1
+{
+	font-family: arial;
+	font-size: 20px;
+	word-spacing: 10px;
+	line-height: 1.5em;
+	text-decoration: underline;
+	text-transform: capitalize;
+	text-align: justify;
+	text-shadow: 20px -20px aqua;
+}
+h1
+{
+	text-align: center;
+	letter-spacing: 4px;
+	font-family: verdana;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+a:hover
+{
+	text-decoration: none;
+	background-color: #555;
+	color: white; 
+}
+a:link
+{
+	color: blue;
+}
+a:visited
+{
+	color: red;
+}
+a:active
+{
+	color: green;
+}
+ul li
+{
+	color:blue;
+	list-style-image: url(t1.jpg)   /*upper-latin, upper-roman, upper-alpha, lower-alpha, decimal*/
+}

@@ -1,0 +1,48 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+.div1
+{
+	background-color: blue;
+	position: absolute;
+	top: 150px;
+	width: 200px;
+	height: 800px;
+
+}
+.div2
+{
+	background-color: brown;
+	position: absolute;
+	height: 150px;
+	width: 800px;
+}
+.div3
+{
+	background-color: yellow;
+	position: absolute;
+	left: 800px;
+	width: 200px;
+	height: 800px;
+}
+.div4
+{
+	background-color: aqua;
+	position: absolute;
+	top: 800px;
+	left: 200px;
+	width: 800px;
+	height: 150px;
+
+}
+.div5
+{
+	background-color: green;
+	position: absolute;
+	top: 150px;
+	left: 200px;
+	width: 600px;
+	height: 650px;
+}

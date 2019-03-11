@@ -1,0 +1,26 @@
+*{
+	background-color: black;
+}
+
+	@keyframes animate
+{
+	/*from {background-color: red;}
+	to{background-color: blue;}*/
+	0% {left: 0px;top:0px;}
+	25%{left: 500px;top:0px;}
+	50%{left:500px;top:500px;}
+	75%{left: 0px;top:500px;}
+	100%{left: 0px;top:0px;}
+}
+div
+{
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	/*background-color:yellow;*/
+	animation-name: animate;
+	animation-duration: 3s;
+	animation-delay:1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}

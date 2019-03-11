@@ -1,0 +1,80 @@
+/*.d1
+{
+	background-color: blue;
+	position: absolute;
+	width: 100px;
+	height: 100px;
+}
+.d2
+{
+	background-color: green;
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	width: 100px;
+	height: 100px;
+	z-index: 2;
+}
+.d3
+{
+	background-color: cyan;
+	position: absolute;
+	top: 60px;
+	left: 60px;
+	width: 100px;
+	height: 100px;
+	z-index: -3;
+}
+.d4
+{
+	background-color: brown;
+	position: absolute;
+	top: 90px;
+	left: 90px;
+	width: 100px;
+	height: 100px;
+	z-index: 4;
+}
+*/
+/*
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+.d1
+{
+	width: 200px;
+	height: 400px;
+	background-color: orange;
+	/*overflow: scroll;*/
+	/*overflow-y:hidden;
+	overflow-x: scroll; 
+}
+.test
+{
+	max-width: 50%;
+	max-height: 50%;
+	left: 50%;
+	top: 50%;
+	position: sticky;
+	background-color: blue;
+	border: solid 3px black;
+}
+.both
+{
+	width: 100px;
+}*/
+img
+{
+	max-height: 400px;
+	max-width: 400px;
+	opacity: 1;
+}
+.test
+{
+	width: 400px;
+	height: 200px;
+	opacity: 0.5;
+	background-color: rgba(255,100,200,200);
+}

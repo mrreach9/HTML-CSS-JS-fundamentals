@@ -1,0 +1,28 @@
+.divstyle
+{
+	/*background:rgba(80, 34, 195, 0.31);
+	border-style: dotted;
+	border-width: 10px;
+	border-color: red;
+	background-color: blue;
+	background-clip: padding-box;
+	/*border-right-style: solid;
+	border-left-style: groove;
+	border-top-style: dotted; ;
+	border-bottom-style: dashed;
+	border-style: solid dotted dashed groove;
+	border-width: 10px 5px 8px 15px;*/
+	border: solid 5px;
+	color: white;
+}
+.bgstyle
+{
+	background-image: url("../image/zump.jpg");
+	background-repeat: repeat;
+	background-position: center right;
+	background-attachment: fixed;
+}
+p
+{
+	font-size: 50px;
+}

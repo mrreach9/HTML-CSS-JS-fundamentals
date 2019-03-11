@@ -1,0 +1,36 @@
+body
+{
+	background-color: rgba(253, 227, 167, 1);
+}
+.middle
+{
+	position: absolute;
+	top: 55%;
+	width: 100%;
+	text-align: center;
+}
+.btn
+{
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	background-color: #333;
+	border-radius: 50%;
+	box-shadow: 3px 3px 20px rgba(252, 185, 65, 1);
+}
+
+.btn i
+{
+	color: #0984e3;
+	position: relative;
+	top: 40px;
+	transition: 0.3s linear;
+}
+.btn:hover i
+{
+	transform: scale(3.5);
+}
+p
+{
+text-transform: uppercase;
+}
